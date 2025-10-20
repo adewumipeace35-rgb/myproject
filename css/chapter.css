@@ -1,0 +1,143 @@
+section {
+    width: 80vw;
+    border-radius: 50px;
+    margin: 70px auto;
+    z-index: 0;
+}
+.nextpage {
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    position: relative;
+    font-size: 12px;
+    top: 20px;
+}
+
+section h3 {
+    text-align: center;
+    background-image: url('/img/background.png');
+    background-size: 100% 100%;
+    padding: 60px;
+    border-radius: 10px;
+    cursor: default;
+}
+
+section button {
+    color: white;
+    background: inherit;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+section p {
+    font-size: 13px;
+    cursor: default;
+    line-height: 20px;
+    font-weight: lighter;
+}
+
+section p i{
+    cursor: default;
+    margin-right: 5px;
+}
+
+section li {
+    font-size: 12px;
+    cursor: default;
+    font-size: 13px;
+    cursor: default;
+    line-height: 20px;
+}
+
+section ul li {
+    display: block;
+}
+
+section ul li::first-letter {
+    margin-left: 20px;
+}
+
+section h4 {
+    cursor: default;
+}
+
+section p::first-letter {
+    margin-left: 20px;
+}
+
+.box {
+    margin: 0 auto;
+    background-color: rgba(18, 18, 46, 0.945);
+    padding: 05px 20px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 15px;
+}
+
+.collapse {
+    display: none;
+}
+
+.less {
+    display: none;
+}
+
+h5 {
+    cursor: default;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+    section {
+        width: 90vw;
+    }
+
+    .nextpage {
+        padding: 5px 10px;
+        font-size: 10px;
+        top: 0px;
+    }
+
+    section h3 {
+        padding: 40px 10px;
+    }
+
+    section button {
+        font-size: 11px;
+    }
+
+    section p {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    section p i{
+        margin-right: 1px;
+    }
+
+    section li {
+        font-size: 10px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    section ol li {
+        font-size: 10px;
+    }
+
+    section ul li {
+        font-size: 10px;
+    }
+
+    section ul li::first-letter {
+        margin-left: 10px;
+    }
+
+    .box {
+        padding: 3px 10px;
+        bottom: 5px;
+    }
+
+}
